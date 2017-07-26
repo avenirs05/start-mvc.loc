@@ -25,11 +25,19 @@ class Router
     {        
         // Получить строку запроса
         $uri = $this->getURI();
-
+//        print_r($uri);
+//        echo '<br>';
+//        print_r($this->routes);
         // Проверить наличие такого запроса в routes.php
         foreach ($this->routes as $uriPattern => $path) {            
             // Сравниваем $uriPattern и $uri
-            if (preg_match("#$uriPattern#", $uri)) {            
+            if (preg_match("#$uriPattern#", $uri)) { 
+                echo '<br>Где ищем (запрос, который набрал пользователь): ' . $uri;
+                echo '<br>Что ищем (совпадение из правила): ' . $uriPattern;
+                echo '<br>Кто обрабатывает: ' . $path;
+                
+                $internalRoute = preg_replace("#$uriPattern#", $path, $uri);
+                echo '<br><br>Нужно сформировать: ' . $internalRoute;
                 // Определить какой controller и action обрабатывают запрос    
                 $segments = explode('/', $path);                
                 $controllerName = array_shift($segments).'Controller';
