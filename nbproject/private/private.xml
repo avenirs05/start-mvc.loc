@@ -4,11 +4,12 @@
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
             <file>file:/C:/Users/lenovo_note/Dropbox/OpenServer/domains/start-mvc.loc/config/routes.php</file>
-            <file>file:/C:/Users/lenovo_note/Dropbox/OpenServer/domains/start-mvc.loc/.htaccess</file>
-            <file>file:/C:/Users/lenovo_note/Dropbox/OpenServer/domains/start-mvc.loc/controllers/ProductController.php</file>
+            <file>file:/C:/Users/lenovo_note/Dropbox/OpenServer/domains/start-mvc.loc/models/Article.php</file>
             <file>file:/C:/Users/lenovo_note/Dropbox/OpenServer/domains/start-mvc.loc/controllers/NewsController.php</file>
             <file>file:/C:/Users/lenovo_note/Dropbox/OpenServer/domains/start-mvc.loc/components/Router.php</file>
+            <file>file:/C:/Users/lenovo_note/Dropbox/OpenServer/domains/start-mvc.loc/models/Product.php</file>
             <file>file:/C:/Users/lenovo_note/Dropbox/OpenServer/domains/start-mvc.loc/index.php</file>
+            <file>file:/C:/Users/lenovo_note/Dropbox/OpenServer/domains/start-mvc.loc/models/News.php</file>
         </group>
     </open-files>
 </project-private>
